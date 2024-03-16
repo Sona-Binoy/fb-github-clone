@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(23, 22, 22);
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 580px;
+    
+    
+}
+.signin{
+    margin-left: 670px;
+}
+.signin span{
+    font-size: 25px;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+.icon{
+    padding-top: 50px;
+    align-items: center;
+}
+.icon i{
+    color: white;
+    margin-left: 725px;
+    margin-top: 20px;
+}
+.options a{
+    cursor: pointer;
+}
+   
+#details{
+    width: 320px; 
+    height: 40px;
+}
+.container span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-family: "Mulish", sans-serif;
+
+}
+
+.container{
+      background-color:rgb(38, 36, 36);
+      padding: 20px;
+      border: 1px solid  #2a2929;
+      border-radius: 8px;
+      margin: 0px 580px;
+      position: fixed;
+}
+.credentials{
+   
+    /* position: relative; */
+    align-items: center;
+    margin-top: 10px;
+}
+.credentials label{
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+.credentials input{
+    background-color: black;
+}
+.credentials a{
+    color: blue;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.credentials button{
+    background-color: green;
+    color: azure;
+    font-size: 15px;
+}
+#details{
+    border: 1px solid  #363232;
+    border-radius: 6px;
+}
+footer{
+     display: flex;
+     margin-top: 400px;
+     align-items: center;
+     justify-content: center;
+}
+
+footer a{
+    color: rgba(163, 176, 216, 0.527);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+.options{
+    text-align: center;
+    background-color: rgb(43, 36, 41);
+   
+    border: 1px solid #363232;
+    border-radius: 8px;
+    padding:10px 20px;
+    margin: 280px 580px;
+    position: absolute;
+    width: 330px;
+    /* height: 60px; */
+    font-size: 15px;
+    background-color: black;
+    
+} 
+
